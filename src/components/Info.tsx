@@ -5,12 +5,11 @@ const Info = () => {
     <section
       className="m-10"
       id="about">
-      <div className="w-[89%] m-auto max-w-[1440px] flex flex-col lg:flex-row gap-8 xl:gap-[180px]">
+      <div className="w-[89%] m-auto max-w-[1440px] flex flex-col lg:flex-row gap-8 xl:gap-44">
         {/* left side */}
-        <div className="grid grid-cols-1 flex-1 gap-[30px] md:grid-cols-2 xl:gap-y-[70px]">
+        <div className="grid grid-cols-1 flex-1 gap-8 md:grid-cols-2 xl:gap-y-16">
           <div>
-            <h3 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary">
-              {/* <h1 className="font-bold text-5xl md:text-6xl leading-normal md:leading-tight"> */}
+            <h3 className="font-bold text-4xl md:text-5xl text-primary mb-2">
               10000+
             </h3>
             <p className="mb-3 font-bold text-gray-600">Satisfied Clients</p>
@@ -21,8 +20,7 @@ const Info = () => {
             </p>
           </div>
           <div>
-            <h3 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary">
-              {/* <h1 className="font-bold text-5xl md:text-6xl leading-normal md:leading-tight"> */}
+            <h3 className="font-bold text-4xl md:text-5xl text-primary mb-2">
               72
             </h3>
             <p className="mb-3 font-bold text-gray-600">Skilled Employees</p>
@@ -33,8 +31,7 @@ const Info = () => {
             </p>
           </div>
           <div>
-            <h3 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary">
-              {/* <h1 className="font-bold text-5xl md:text-6xl leading-normal md:leading-tight"> */}
+            <h3 className="font-bold text-4xl md:text-5xl text-primary mb-2">
               500+
             </h3>
             <p className="mb-3 font-bold text-gray-600">Projects Completed</p>
@@ -45,8 +42,7 @@ const Info = () => {
             </p>
           </div>
           <div>
-            <h3 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary">
-              {/* <h1 className="font-bold text-5xl md:text-6xl leading-normal md:leading-tight"> */}
+            <h3 className="font-bold text-4xl md:text-5xl text-primary mb-2">
               24
             </h3>
             <p className="mb-3 font-bold text-gray-600">Locations Worldwide</p>
@@ -59,29 +55,29 @@ const Info = () => {
         </div>
         {/* right side */}
         <div className="flex-1">
-          <h3 className="text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] font-extrabold mb-[30px] lg:mb-[63px] text-secondary drop-shadow-sm">
+          <h3 className="text-4xl sm:text-5xl font-extrabold mb-8 lg:mb-16 text-secondary drop-shadow-sm">
             Subscrive to our newsletter and recieve special updates
           </h3>
-          <div className="bg-white py-3 px-4 flex items-center justify-between border border-gray-200 rounded-[10px] mb-7">
+          <div className="bg-white py-3 px-4 flex items-center justify-between border border-gray-200 rounded-lg mb-7">
             <input
               type="text"
               placeholder="Enter your email"
               className="outline-9 ml-5 w-1/2"
             />
             <div>
-              <button className="py-[17px] px-[26px] rounded-[8px] font-semibold text-md md:text-lg text-white bg-primary duration-500 hover:bg-[#f88eb8] whitespace-nowrap">
+              <button className="py-4 px-7 rounded-lg font-semibold text-md md:text-lg text-white bg-primary duration-500 hover:bg-[#f88eb8] whitespace-nowrap">
                 Subscribe
               </button>
             </div>
           </div>
           <div className="flex items-center gap-9">
-            <div className="flex items-center gap-[10px]">
+            <div className="flex items-center gap-3">
               <div className="text-primary ">
                 <AiFillCheckCircle />
               </div>
               <span className="text-md text-gray-500">Special Promotions</span>
             </div>
-            <div className="flex items-center gap-[10px]">
+            <div className="flex items-center gap-3">
               <div className="text-primary ">
                 <AiFillCheckCircle />
               </div>
